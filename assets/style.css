@@ -18,6 +18,7 @@ h1{
     background-color: cyan;
     padding: 20px;
     font-weight: bold;
+    /* added a background color and changed formatting */
 }
 
 nav ul {
@@ -81,16 +82,22 @@ figcaption {
     
    
     font-size: 300%;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
     border-right: 5px solid  rgb(80, 80, 255);
-    padding-right: 10px;
+    
 }
 
+#aboutmeside h2 {
+    justify-self: flex-end;
+}
+
+/* added css for the image of myself */
 #aboutmeside img{
     height: 400px;
     width: 200px;
-    padding: 10px;
+    
+    box-shadow: 10px 10px 5px grey;
 }
 
 .aboutmep{
@@ -104,6 +111,7 @@ figcaption {
     font-size: 25px;
     line-height: 35px;
     color: darkcyan
+    /* updated aboutme paragrah formatting */
 }
 
 
@@ -178,10 +186,12 @@ figcaption {
     justify-content: center;
     align-self: flex-end;
     opacity: .5;
+    /* added an initial opacity */
 }
 
 .portfolio img:hover{
     opacity: 1;
+    /* removed opacity on mouse hover */
 }
 
 .portfolio p{
@@ -203,10 +213,12 @@ figcaption {
     justify-content: center;
     align-items: center;
     opacity: .5;
+    /* added an initial opacity */
 }
 
 .project-3 img:hover{
     opacity: 1;
+    /* removed opacity on mouse hover */
 }
 
 .project-3 p{
@@ -267,6 +279,7 @@ figcaption {
 .info a:hover{
     color: darkcyan;
 }
+/* changed contact a color */
 
 .resume{
     display:flex;
@@ -305,10 +318,12 @@ figcaption {
     justify-content: center;
     align-self: flex-end;
     opacity: .5;
+    /* added and initial opacity */
 }
 
 .resmain img:hover{
     opacity: 1;
+    /* removed resume img opacity on mouse hover */
 }
 
 .resmain p{
@@ -324,7 +339,7 @@ figcaption {
 }
 
 
-
+/* added css to modify the footer */
 footer{
     background-color: darkcyan;
     height: 100px;
