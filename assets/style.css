@@ -14,6 +14,10 @@ body{
 
 h1{
     font-size: 200%;
+    color: black;
+    background-color: cyan;
+    padding: 20px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -76,11 +80,17 @@ figcaption {
     height: 400px;
     
    
-    font-size: 200%;
+    font-size: 300%;
     justify-content: flex-end;
     align-items: center;
     border-right: 5px solid  rgb(80, 80, 255);
     padding-right: 10px;
+}
+
+#aboutmeside img{
+    height: 400px;
+    width: 200px;
+    padding: 10px;
 }
 
 .aboutmep{
@@ -89,10 +99,11 @@ figcaption {
     height: auto;
     justify-content: flex-end;
     align-items: center;
-    
     padding: 40px;
     border-left-width: 0px;
-   
+    font-size: 25px;
+    line-height: 35px;
+    color: darkcyan
 }
 
 
@@ -109,10 +120,10 @@ figcaption {
     display:flex;
    
     height: 400px;
-    width: 640px;
+    width: 600px;
     min-width: 200px;
     
-    font-size: 200%;
+    font-size: 300%;
     justify-content: flex-end;
     align-items: center;
    
@@ -139,7 +150,7 @@ figcaption {
     justify-content: center;
     align-self: flex-end;
     max-height: 800px;
-    width: 1700px;
+    width: 1500px;
     height: auto;
 }
 
@@ -156,6 +167,7 @@ figcaption {
     position:relative;
     top: -150px;
     left: 10px;
+    font-weight: bold;
 
 }
 
@@ -181,6 +193,7 @@ figcaption {
     position:relative;
     top: -150px;
     left: 10px;
+    font-weight: bold;
 }
 
 .project-3 img{
@@ -205,6 +218,7 @@ figcaption {
     position:relative;
     top: -150px;
     left: 10px;
+    font-weight: bold;
 }
 
 .contact {
@@ -226,7 +240,7 @@ figcaption {
     min-width: 200px;
    
     flex-wrap:wrap;
-    font-size: 200%;
+    font-size: 300%;
     height: 400px;
     align-items: center;
     justify-content: flex-end;
@@ -270,7 +284,7 @@ figcaption {
     min-width: 200px;
     
     flex-wrap:wrap;
-    font-size: 200%;
+    font-size: 300%;
     height: 400px;
     align-items: center;
     justify-content: flex-end;
@@ -285,12 +299,16 @@ figcaption {
     align-items: center;
 }
 .resmain img{
-   
     border: 5px solid cyan;
     height: 300px;
     width: 500px;
     justify-content: center;
     align-self: flex-end;
+    opacity: .5;
+}
+
+.resmain img:hover{
+    opacity: 1;
 }
 
 .resmain p{
@@ -300,15 +318,12 @@ figcaption {
     font-size: 20px;
     padding: 3px;
     position:relative;
-    top:145px;
+    top: 79px;
     right: 503px;
 
 }
 
-#aboutmeside img{
-    height: 200px;
-    width: 100px;
-}
+
 
 footer{
     background-color: darkcyan;
