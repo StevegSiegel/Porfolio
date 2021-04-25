@@ -27,6 +27,8 @@ nav a{
     font-weight: bold;
     text-decoration: none;
     font-size: larger;
+    background-color: cyan;
+    padding: 5px;
 }
 
 nav a:hover {
@@ -107,7 +109,7 @@ figcaption {
     display:flex;
    
     height: 400px;
-    width: 23%;
+    width: 640px;
     min-width: 200px;
     
     font-size: 200%;
@@ -132,13 +134,17 @@ figcaption {
 
 .horiseon img{
     display: flex;
-    
+    opacity: .5;
     border: 5px solid cyan;
     justify-content: center;
     align-self: flex-end;
     max-height: 800px;
     width: 1700px;
     height: auto;
+}
+
+.horiseon img:hover{
+    opacity: 1;
 }
 
 .horiseon p{
@@ -154,12 +160,16 @@ figcaption {
 }
 
 .portfolio img{
-    
     border: 5px solid cyan;
     width: 800px;
     height: 600px;
     justify-content: center;
     align-self: flex-end;
+    opacity: .5;
+}
+
+.portfolio img:hover{
+    opacity: 1;
 }
 
 .portfolio p{
@@ -174,12 +184,16 @@ figcaption {
 }
 
 .project-3 img{
-   
     border: 5px solid cyan;
     width: 800px;
     height: 600px;
     justify-content: center;
     align-items: center;
+    opacity: .5;
+}
+
+.project-3 img:hover{
+    opacity: 1;
 }
 
 .project-3 p{
@@ -208,7 +222,7 @@ figcaption {
 
 #contactside{
     display: flex;
-    width: 18%;
+    width: 450px;
     min-width: 200px;
    
     flex-wrap:wrap;
@@ -233,7 +247,11 @@ figcaption {
     color: black;
     font-weight: bold;
     text-decoration: underline 5px solid lightblue;
-    font-size: larger;
+    font-size: 30px;
+}
+
+.info a:hover{
+    color: darkcyan;
 }
 
 .resume{
@@ -248,7 +266,7 @@ figcaption {
 
 #resumeside{
     display: flex;
-    width: 18%;
+    width: 450px;
     min-width: 200px;
     
     flex-wrap:wrap;
@@ -290,6 +308,12 @@ figcaption {
 #aboutmeside img{
     height: 200px;
     width: 100px;
+}
+
+footer{
+    background-color: darkcyan;
+    height: 100px;
+    width: auto;
 }
 
 @media screen and (max-width: 2000px) {
